@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch A Sketch</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Etch a Sketch</h1>
+        </div>
+    </header>
+    <section id="input">
+        <button id="color">Color</button>
+        <button id="rainbow">Rainbow</button>
+        <button id="eraser">Eraser</button>
+        <button id="clear">Clear</button>
+    </section>
+    <section id="size-change">
+        <label for="size">Enter the size:</label>
+        <input type="number" min="2" max="100" id="size" value="16">
+        <button id="update-size">Update Grid</button>
+    </section>
+    <main>
+        <div id="sketch-part">
+            <div id="container">
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
